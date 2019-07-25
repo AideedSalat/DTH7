@@ -1,0 +1,26 @@
+.head
+{
+	padding: 5px;
+	margin: 100px 100px;
+	color:dodgerblue
+}
+h2
+{
+	color:dodgerblue;
+}
+.par
+{
+	margin-top: -50px;
+	margin-bottom:50px;
+	margin-right: 100px;
+	margin-left: 100px;
+	
+}
+
+div#googleMap
+{
+	width:830px;
+	height:600px;
+	margin:0 auto;
+	font-family:'Ubuntu',sans-serif
+}

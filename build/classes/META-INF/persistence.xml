@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="dth">
+		<jta-data-source>jdbc/dth</jta-data-source>
+		<class>com.dth.models.Customer_Details</class>
+		<class>com.dth.models.FAQ</class>
+		<class>com.dth.models.Package_Details</class>
+		<class>com.dth.models.Vendor_Details</class>
+		<class>com.dth.models.Feedback</class>
+		<class>com.dth.models.Contact</class>
+		<class>com.dth.models.Order_Details</class>
+		<properties>
+			<property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
+		</properties>
+	</persistence-unit>
+</persistence>
